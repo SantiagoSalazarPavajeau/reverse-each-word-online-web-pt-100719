@@ -22,3 +22,5 @@ def reverse_each_word(string)
   end
   reversed_words = reversed_words.join(" ")
 end
+# collect and each did not have a difference in syntax 
+# collect returns a 
