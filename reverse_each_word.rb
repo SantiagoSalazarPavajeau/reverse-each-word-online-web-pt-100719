@@ -5,7 +5,7 @@ def reverse_each_word(string)
   # if each splitted word is a different array it will only reverse each word
   reversed_words= []
   string.split.each do |word|
-    word.reverse
+  reversed_words <<  word.reverse
   end
-    
+  reversed_words  
 end
