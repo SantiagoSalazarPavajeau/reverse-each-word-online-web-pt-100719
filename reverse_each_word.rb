@@ -23,4 +23,5 @@ def reverse_each_word(string)
   reversed_words = reversed_words.join(" ")
 end
 # collect and each did not have a difference in syntax 
-# collect returns a 
+# collect/map returns the transformed value
+# each still returns the original value
