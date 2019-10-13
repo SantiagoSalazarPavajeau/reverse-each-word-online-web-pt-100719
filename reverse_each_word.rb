@@ -15,5 +15,8 @@ def reverse_each_word(string)
   # .join(" ") converts the array elements into a string/sentence and each element is separated by a space
 end
 
-def 
-
+def reverse_each_word(string)
+  string.split.collect do |word|
+  word.reverse
+  end
+end
